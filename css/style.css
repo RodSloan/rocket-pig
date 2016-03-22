@@ -1,0 +1,38 @@
+body {font-family: Verdana, sans-serif; font-size:0.8em; background-color:#000000; color:#FF8800; text-align:left;}
+
+//canvas { border:1px solid #FF8800;}
+
+#gameArea {
+  position: absolute;
+  left:     50%;
+  top:      50%;
+}
+#gameCanvas {
+  width: 100%;
+  height: 100%;
+}
+#statsPanel {
+  position: absolute;
+  width: 100%;
+  height: 8%;
+  bottom: 0;
+  opacity: 0.8;
+}
+
+header,nav, footer
+{border:1px solid grey; margin:5px; padding:8px; background-color:#444444; color:#FF8800; width: 862px;text-align:left;}
+section {border:1px solid grey; margin:5px; padding:8px; background-color:#444444; color:#FF8800; text-align:center; width: 862px;}
+article {border:1px solid grey; margin:5px; padding:8px; background-color:#666666; color:#FF8800; text-align:left;}
+#artBlock {margin:3; width:256px;  height: 300px; display:inline-block;}
+#gameBlock {margin:3; width:256px;  height: 330px; display:inline-block;}
+#productBlock {margin:3; width:256px;  height: 350px; display:inline-block;}
+nav ul {margin:0; padding:0; text-align:left;}
+nav ul li {display:inline; margin:5px;}
+a {color:#FF5500; }
+#gameImage {width:250px; height:180px;margin:3px; border:1px solid #000000;}
+#titleImage {float:left;}
+#flagIcon {float:right; margin:2px;}
+h1, h2 {text-align:left; font-family: 'Orbitron', Arial, sans-serif;  }
+h1 {font-weight: 900;}
+h2 {font-weight: 400;}
+
